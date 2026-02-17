@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+
+<html lang="tr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>dubaipie.com | Premium Domain For Sale</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600&family=Satisfy&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+
+        :root {
+
+            --gold: #c5a059;
+
+            --gold-light: #e2c275;
+
+            --text-gray: #a0a0a0;
+
+        }
+
+
+
+        body, html {
+
+            margin: 0; padding: 0;
+
+            font-family: 'Inter', sans-serif;
+
+            background-color:transparent;
+
+            color: #fff;
+
+            min-height: 100vh;
+
+            display: flex;
+
+            flex-direction: column;
+
+            align-items: center;
+
+        }
+
+
+
+
+
+       .bg-image {
+
+            position: fixed;
+
+            top: 0; left: 0; width: 100%; height: 100%;
+
+            background: url('./image/bg.jpg') no-repeat center center;
+
+            background-size: cover;
+
+            z-index: -1;
+
+        }
+
+        
+
+       .container {
+
+            text-align: center;
+
+            width: 100%;
+
+            max-width: 800px;
+
+            padding: 40px 20px;
+
+            display: flex;
+
+            flex-direction: column;
+
+            align-items: center;
+
+            flex: 1;
+
+            background: transparent; /* TAM ŞEFFAF */
+
+            text-shadow: 0px 2px 4px rgba(0,0,0,0.7); /* Okunabilirlik için */
+
+        }
+
+
+
+
+
+        .logo-area { margin-bottom: 25px; }
+
+        .logo-image {
+
+            width: 90px;
+
+            height: auto;
+
+            animation: heartbeat 3s ease-in-out infinite;
+
+        }
+
+
+
+        @keyframes heartbeat {
+
+            0%, 100% { transform: scale(1); }
+
+            50% { transform: scale(1.08); }
+
+        }
+
+
+
+        .domain-name {
+
+            font-size: clamp(2.2rem, 8vw, 3.5rem);
+
+            font-weight: 200;
+
+            letter-spacing: -1px;
+
+            margin: 10px 0;
+
+        }
+
+
+
+        /* Tagline %20 Büyütüldü */
+
+        .tagline {
+
+            font-size: 1.6rem; 
+
+            color: var(--text-gray);
+
+            font-weight: 300;
+
+            margin-bottom: 30px;
+
+            line-height: 1.4;
+
+        }
+
+
+
+        /* Dubai Altın Vurgusu */
+
+        .gold-highlight {
+
+            background: linear-gradient(135deg, #c5a059 0%, #f9cb28 50%, #c5a059 100%);
+
+            -webkit-background-clip: text;
+
+            -webkit-text-fill-color: transparent;
+
+            font-weight: 800;
+
+           /* font-style: italic;*/
+
+            display: inline-block;
+
+        }
+
+
+
+        .hero-subtext {
+
+    font-size: 1rem;
+
+    color: #d8d8d8;
+
+    font-weight: 300;
+
+    margin-top: -10px;
+
+    margin-bottom: 25px;
+
+    line-height: 1.6;
+
+    max-width: 600px;
+
+}
+
+
+
+        .cta-group {
+
+            display: flex;
+
+            gap: 15px;
+
+            justify-content: center;
+
+            margin-bottom: 35px;
+
+            width: 100%;
+
+        }
+
+
+
+        .btn {
+
+            min-width: 160px;
+
+            padding: 12px 0;
+
+            border-radius: 30px;
+
+            text-decoration: none;
+
+            font-size: 0.85rem;
+
+            border: 1px solid var(--gold);
+
+            color: #fff;
+
+            transition: 0.3s ease;
+
+            background: rgba(0, 0, 0, 0.3);
+
+        }
+
+
+
+        .btn:hover { background: var(--gold); color: #000; transform: translateY(-2px); }
+
+
+
+        .features {
+
+            display: flex;
+
+            flex-direction: column;
+
+            align-items: center;
+
+            gap: 12px;
+
+            margin: 30px 0 15px 0;
+
+        }
+
+
+
+        .feature-item {
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 12px;
+
+            font-size: 1.1rem;
+
+            color: var(--gold-light);
+
+        }
+
+
+
+        /* Alt Yazı Alanı Boşluğu Yarıya İndirildi */
+
+        .description-area {
+
+            margin-top: 15px; 
+
+        }
+
+
+
+        .special-domain-link {
+
+            font-family: 'Satisfy', cursive; /* Satisfy fontu geri getirildi */
+
+            color: var(--gold);
+
+            font-size: 2.3rem;
+
+            text-decoration: none;
+
+            border-bottom: 1.5px solid var(--gold);
+
+            padding-bottom: 2px;
+
+            display: inline-block;
+
+            margin-bottom: 10px;
+
+        }
+
+
+
+        /* Footer Hizalama ve Çizgi Mesafesi */
+
+        .footer {
+
+            width: 100%;
+
+            max-width: 1000px;
+
+            border-top: 1px solid rgba(197, 160, 89, 0.4);
+
+            padding: 15px 20px 30px 20px; /* Üst boşluk daraltıldı */
+
+            box-sizing: border-box;
+
+            background: rgba(0,0,0,0.1);
+
+            margin-top: 20px;
+
+        }
+
+
+
+        .footer-grid {
+
+            display: grid;
+
+            grid-template-columns: 1fr 1.5fr 1fr;
+
+            gap: 20px;
+
+            align-items: start; /* İçerikler üstten hizalandı */
+
+        }
+
+
+
+        .footer-col {
+
+            display: flex;
+
+            flex-direction: column;
+
+            align-items: center;
+
+            text-align: center;
+
+        }
+
+
+
+        .footer-col h4 {
+
+            color: var(--gold);
+
+            text-transform: uppercase;
+
+            margin: 0 0 12px 0;
+
+            font-size: 0.8rem;
+
+            letter-spacing: 1px;
+
+        }
+
+
+
+        .footer-col p, .footer-col a {
+
+            color: #fff;
+
+            text-decoration: none;
+
+            margin: 3px 0;
+
+            font-size: 0.85rem;
+
+            line-height: 1.4;
+
+        }
+
+
+
+        .social-icons a {
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 8px;
+
+            transition: 0.3s;
+
+        }
+
+        .social-icons i { color: var(--gold); }
+
+
+
+        @media (max-width: 768px) {
+
+            .footer-grid { grid-template-columns: 1fr; gap: 30px; }
+
+            .cta-group { flex-direction: column; align-items: center; }
+
+            .tagline { font-size: 1.3rem; }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <div class="bg-image"></div>
+
+
+
+    <main class="container">
+
+        <div class="logo-area">
+
+            <img src="image/dplogo.png" alt="dubaipie logo" class="logo-image">
+
+            <h1 class="domain-name">dubaipie.com</h1>
+
+            <p class="tagline">
+
+                Premium domain for luxury chocolate & bakery brands inspired by 
+
+                <span class="gold-highlight">Dubai</span>
+
+            </p>
+
+        </div>
+
+          <p class="hero-subtext">
+
+    Premium, brandable <strong>.com</strong> domain<br>
+
+    Perfect for chocolate, dessert or luxury Middle East food brands.
+
+</p>
+
+
+
+        <div class="cta-group">
+
+            <a href="mailto:dubaipiecom@gmail.com" class="btn">MAKE AN OFFER</a>
+
+            <a href="https://dan.com/buy-domain/dubaipie.com" target="_blank" class="btn">BUY NOW</a>
+
+        </div>
+
+
+
+        <div style="font-size: 0.8rem; color: var(--gold); margin-bottom: 30px;">
+
+            <i class="fas fa-lock" style="font-size: 0.7rem;"></i> Secure transaction via Escrow.com
+
+        </div>
+
+
+
+        <section class="features">
+
+            <div class="feature-item"><i class="far fa-check-circle"></i> Premium <b>.com</b> domain</div>
+
+            <div class="feature-item"><i class="far fa-check-circle"></i> Brandable & memorable</div>
+
+            <div class="feature-item"><i class="far fa-check-circle"></i> Perfect for chocolate & pastry brands</div>
+
+        </section>
+
+
+
+        <div class="description-area">
+
+            <h2 class="special-domain-link">dubaipie.com</h2>
+
+            <p style="font-weight: 300; line-height: 1.8; max-width: 550px; color: #ddd; margin: 0 auto;">
+
+                Combines Dubai's global luxury image with a food-focused, memorable brand name.
+
+                Ideal for premium chocolate brands, boutique bakeries, dessert cafés and gourmet food startups.
+
+            </p>
+
+        </div>
+
+    </main>
+
+
+
+    <footer class="footer">
+
+        <div class="footer-grid">
+
+            <div class="footer-col">
+
+                <h4>Contact</h4>
+
+                <a href="mailto:dubaipiecom@gmail.com">dubaipiecom@gmail.com</a>
+
+            </div>
+
+
+
+            <div class="footer-col">
+
+                <p style="color: var(--gold); margin-top: 2px;">Buy Now: 14,900 USD or Make an Offer</p>
+
+                <p style="color: var(--gold); margin-top: 8px;">
+
+                    <i class="fas fa-shield-alt"></i> Secure via Escrow.com
+
+                </p>
+
+            </div>
+
+
+
+            <div class="footer-col">
+
+                <h4>Assets included</h4>
+
+                <div class="social-icons">
+
+                    <a href="https://instagram.com/dubaipiecom" target="_blank"><i class="fab fa-instagram"></i> @dubaipiecom</a>
+
+                    <a href="https://tiktok.com/@dubaipiecom" target="_blank"><i class="fab fa-tiktok"></i> @dubaipiecom</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+</body>
+
+</html>
